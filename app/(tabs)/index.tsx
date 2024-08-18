@@ -7,12 +7,16 @@ import { ThemedView } from '@/components/ThemedView';
 
 export default function HomeScreen() {
   return (
-    <View>
-      <Text>Hello world</Text>
+    <View style={styles.container}>
+      <Text>Hello world This is indura speaking , this changes was made with indura08 account and pushed to frontend -2 branch</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center"
+  }
 });
